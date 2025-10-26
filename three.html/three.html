@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Random Quote Generator</title>
+    <style>
+        #quote{
+            font-size: 125%;
+            font-style:italic;
+            text-align:center;
+            color: darkblue;
+        }
+        body{
+            background-color: mistyrose;
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 200%;
+        }
+        #gen{
+            display:block;
+            background-color: antiquewhite;
+             border-radius: 3px;
+            width:7%;
+            height:15%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          
+            margin:0
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Random Quote Generator</h1>
+    <div class="quotewrap">
+    <p id="quote"></p>
+    <button onclick="generate()" id="gen" class="gene-bt">Generate Quote</button>
+    </div>
+    <script src="index3.js"></script>
+</body>
+</html>
